@@ -12,7 +12,7 @@ struct ListView: View {
         NavigationView {
             List(ActionItems) {ActionItem in
                 ActionItemView(image: ActionItem.image, message: ActionItem.message)
-            }.navigationBarTitle("热点与附近")
+            }.navigationBarTitle("热点和附近")
             
         }
     }
